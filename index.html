@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="shortcut icon" href="761777.png" />
+    <title>Churrascômetro - Calcule o seu churrasco!</title>
+</head>
+<body>
+    <div class="container">
+
+
+        <div class="intern2">
+            <div class="intern3">
+            <h1>O cálculo ideal para o seu Churrasco!</h1>
+            <p>O churrascômetro é uma ferramenta online que veio para facilitar a organização do seu churrasco. Com apenas alguns cliques, você pode obter uma estimativa precisa da quantidade de carne, cerveja e outras bebidas necessárias para o seu evento.</p>
+            <p>Ao acessar o site do churrascômetro, você será guiado por um simples questionário(a esquerda), onde poderá informar o número de convidados, a duração do churrasco e as preferências de carne de cada um. Com base nessas informações, o churrascômetro realizará cálculos inteligentes e apresentará uma lista detalhada dos itens que você precisará comprar.
+            <p>Além de ajudar na organização das compras, o churrascômetro também auxilia na redução de desperdícios. Com a quantidade certa de carne e bebidas, você evita gastar em excesso e garante que todos os seus convidados sejam bem atendidos.</p>
+            <p>O cálculo é baseado na quantidade de pessoas e duração do evento e se divide da seguinte maneira:
+                Homens = 400g de carne
+                Mulheres = 200g de carne
+                Crianças = 100g de carne
+            </p>
+            
+            </div>
+            </div>
+            <div class="intern">
+                <div class="calc">
+                <h1>Churrascômetro</h1>
+            
+                <div>
+                    <p>Homens</p>
+                    <input id="homens" name="homens" type="number" placeholder="Homens" value="0" min="0" max="99">
+                </div>
+                <div>
+                    <p>Mulheres</p>
+                    <input id="mulheres" name="mulheres" type="number" placeholder="Mulheres" value="0" min="0" max="99">
+                </div>
+                <div>
+                    <p>Crianças</p>
+                    <input id="criancas" name="criancas" type="number" placeholder="Criancas" value="0" min="0" max="99">
+                </div>
+                <div>
+                    <p>Duração</p>
+                    <input id="duracao" name="duracao" type="number" placeholder="Duracao(h)" value="0" min="0" max="99">
+                    <button onclick="calcular()">Calcular</button>
+                </div>
+                <div id="resultado">
+    
+                    
+    
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <p>Desenvolvido por João Carlos Blankenheim Rodrigues - Todos os direitos reservados</p>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
